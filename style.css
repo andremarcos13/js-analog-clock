@@ -22,6 +22,7 @@ body {
     right: 149px;
     bottom: 149px;
     opacity: 50%;
+    transform-origin: 0% 100%;
 }
 
 #minutes {
@@ -32,6 +33,8 @@ body {
     right: 149px;
     bottom: 149px;
     opacity: 50%;
+    transform-origin: 0% 100%;
+
 }
 
 #hours {
@@ -42,4 +45,6 @@ body {
     right: 148px;
     bottom: 148px;
     opacity: 50%;
+    transform-origin: 0% 100%;
+
 }
