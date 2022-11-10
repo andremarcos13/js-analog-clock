@@ -13,7 +13,6 @@ const getTime = () => {
     min.style.transform = 'rotate(' + (minutes * timeInterval + seconds / 10 )+ 'deg)'
     hr.style.transform = 'rotate(' + (hours * 30 + minutes / 2)+ 'deg)'
 
-    console.log(minutes + timeInterval);
 }
 
 setInterval(getTime, 100)
